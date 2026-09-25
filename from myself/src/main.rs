@@ -1,6 +1,6 @@
 mod hello;
-mod while_loop;
+mod hello_new_line;
 fn main() {
     hello::run();
-    while_loop::run();
+    hello_new_line::run();
 }
