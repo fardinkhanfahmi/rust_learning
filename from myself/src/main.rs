@@ -5,6 +5,7 @@ mod integer_plus_minus_division_multiplication;
 mod float_data_type_operation;
 mod float_input;
 mod math_problem_by_taking_input;
+mod if_else;
 fn main() {
     //hello::run();
     //hello_new_line::run();
@@ -12,5 +13,6 @@ fn main() {
     //integer_plus_minus_division_multiplication::run();
     //float_data_type_operation::run();
     //float_input::run();
-    math_problem_by_taking_input::run();
+    //math_problem_by_taking_input::run();
+    if_else::run();
 }
