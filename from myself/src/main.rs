@@ -6,6 +6,7 @@ mod float_data_type_operation;
 mod float_input;
 mod math_problem_by_taking_input;
 mod if_else;
+mod and_or;
 fn main() {
     //hello::run();
     //hello_new_line::run();
@@ -14,5 +15,6 @@ fn main() {
     //float_data_type_operation::run();
     //float_input::run();
     //math_problem_by_taking_input::run();
-    if_else::run();
+    //if_else::run();
+    and_or::run();
 }
