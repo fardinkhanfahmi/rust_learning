@@ -7,6 +7,7 @@ mod float_input;
 mod math_problem_by_taking_input;
 mod if_else;
 mod and_or;
+mod for_loop;
 fn main() {
     //hello::run();
     //hello_new_line::run();
@@ -16,5 +17,6 @@ fn main() {
     //float_input::run();
     //math_problem_by_taking_input::run();
     //if_else::run();
-    and_or::run();
+    //and_or::run();
+    for_loop::run();
 }
