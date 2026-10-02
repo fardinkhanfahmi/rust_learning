@@ -8,6 +8,7 @@ mod math_problem_by_taking_input;
 mod if_else;
 mod and_or;
 mod for_loop;
+mod prime_number_check;
 fn main() {
     //hello::run();
     //hello_new_line::run();
@@ -18,5 +19,6 @@ fn main() {
     //math_problem_by_taking_input::run();
     //if_else::run();
     //and_or::run();
-    for_loop::run();
+    //for_loop::run();
+    prime_number_check::run();
 }
