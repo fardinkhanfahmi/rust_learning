@@ -9,6 +9,7 @@ mod if_else;
 mod and_or;
 mod for_loop;
 mod prime_number_check;
+mod while_loop;
 fn main() {
     //hello::run();
     //hello_new_line::run();
@@ -20,5 +21,6 @@ fn main() {
     //if_else::run();
     //and_or::run();
     //for_loop::run();
-    prime_number_check::run();
+    //prime_number_check::run();
+    while_loop::run();
 }
