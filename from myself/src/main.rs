@@ -10,6 +10,7 @@ mod and_or;
 mod for_loop;
 mod prime_number_check;
 mod while_loop;
+mod array_learning;
 fn main() {
     //hello::run();
     //hello_new_line::run();
@@ -22,5 +23,6 @@ fn main() {
     //and_or::run();
     //for_loop::run();
     //prime_number_check::run();
-    while_loop::run();
+    //while_loop::run();
+    array_learning::run();
 }
