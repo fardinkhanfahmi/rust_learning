@@ -4,7 +4,7 @@ use rand::Rng;
 use colored::*;
 pub fn run()
 {
-    let a: u8 =random_number()+60;
+    let a: u8 =random_number()+61;
     println!("Value of a is {a}");
 }
 fn random_number() ->u8
