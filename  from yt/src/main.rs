@@ -5,6 +5,7 @@ mod shadowing;
 mod shadowing2;
 mod release_debug_mode;
 mod wrapping_add;
+mod checked_add;
 fn main() {
     //guessing_game::run();
     //guessing_game_practise::run();
@@ -12,5 +13,6 @@ fn main() {
     //shadowing::run();
     //shadowing2::run();
     //release_debug_mode::run();
-    wrapping_add::run();
+    //wrapping_add::run();
+    checked_add::run();
 }
