@@ -7,7 +7,7 @@ pub fn run()
     let z ={
         let x=3;
         x+1;
-        10
+        9
     };
     println!("{}  {}", y, z);
 }
