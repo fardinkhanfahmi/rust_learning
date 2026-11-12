@@ -9,10 +9,10 @@ fn is_even(x:i32)->bool
 {
     if x%2==0
     {
-        true
+        return true;
     }
     else
     {
-        false
+        return false;
     }
 }
