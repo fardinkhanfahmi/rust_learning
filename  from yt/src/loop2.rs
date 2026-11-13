@@ -1,6 +1,6 @@
 pub fn run() {
     let mut count = 0;
-    'counting_up: loop {
+    let a:i32='counting_up: loop {
         println!("count = {count}");
         let mut remaining = 10;
 
@@ -10,12 +10,12 @@ pub fn run() {
                 break;
             }
             if count == 2 {
-                break 'counting_up;
+                break 'counting_up 5;
             }
             remaining -= 1;
         }
 
         count += 1;
-    }
-    println!("End count = {count}");
+    };
+    println!("End count = {count}, a = {a}");
 }
