@@ -10,6 +10,7 @@
 // mod array;
 // mod control_flow;
 // mod expression_and_statement_difference;
+mod for_in_array;
 mod looop;
 mod loop2;
 fn main() {
@@ -24,6 +25,7 @@ fn main() {
     //tuple::run();
     //array::run();
     //looop::run();
-    loop2::run();
+    //loop2::run();
     //expression_and_statement_difference::run();
+    for_in_array::run();
 }
