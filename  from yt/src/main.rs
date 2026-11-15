@@ -10,9 +10,10 @@
 // mod array;
 // mod control_flow;
 // mod expression_and_statement_difference;
-mod for_in_array;
-mod looop;
-mod loop2;
+// mod for_in_array;
+// mod looop;
+// mod loop2;
+mod farenheit_and_celsius_convert;
 fn main() {
     //guessing_game::run();
     //guessing_game_practise::run();
@@ -27,5 +28,6 @@ fn main() {
     //looop::run();
     //loop2::run();
     //expression_and_statement_difference::run();
-    for_in_array::run();
+    //for_in_array::run();
+    farenheit_and_celsius_convert::run();
 }
