@@ -14,8 +14,9 @@
 // mod looop;
 // mod loop2;
 // mod farenheit_and_celsius_convert;
-mod nth_fibonacci_number;
-mod ownership_in_rust_part_1;
+// mod nth_fibonacci_number;
+// mod ownership_in_rust_part_1;
+mod ownership_example_2;
 fn main() {
     //guessing_game::run();
     //guessing_game_practise::run();
@@ -33,5 +34,6 @@ fn main() {
     //for_in_array::run();
     // farenheit_and_celsius_convert::run();
     // nth_fibonacci_number::run();
-    ownership_in_rust_part_1::run();
+    // ownership_in_rust_part_1::run();
+    ownership_example_2::run()
 }
