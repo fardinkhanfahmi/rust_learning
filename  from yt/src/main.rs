@@ -13,7 +13,8 @@
 // mod for_in_array;
 // mod looop;
 // mod loop2;
-mod farenheit_and_celsius_convert;
+// mod farenheit_and_celsius_convert;
+mod nth_fibonacci_number;
 fn main() {
     //guessing_game::run();
     //guessing_game_practise::run();
@@ -29,5 +30,6 @@ fn main() {
     //loop2::run();
     //expression_and_statement_difference::run();
     //for_in_array::run();
-    farenheit_and_celsius_convert::run();
+    // farenheit_and_celsius_convert::run();
+    nth_fibonacci_number::run();
 }
