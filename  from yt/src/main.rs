@@ -17,8 +17,9 @@
 // mod nth_fibonacci_number;
 // mod ownership_in_rust_part_1;
 // mod ownership_example_2;
-mod ownership_stack_example;
-mod ownership_in_heap_eample;
+// mod ownership_stack_example;
+// mod ownership_in_heap_eample;
+mod takes_ownership_function;
 fn main() {
     //guessing_game::run();
     //guessing_game_practise::run();
@@ -39,5 +40,6 @@ fn main() {
     // ownership_in_rust_part_1::run();
     // ownership_example_2::run();
     // ownership_stack_example::run();
-    ownership_in_heap_eample::run();
+    // ownership_in_heap_eample::run();
+    takes_ownership_function::run()
 }
