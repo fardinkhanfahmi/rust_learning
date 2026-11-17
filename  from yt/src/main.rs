@@ -20,7 +20,8 @@
 // mod ownership_stack_example;
 // mod ownership_in_heap_eample;
 // mod takes_ownership_function;
-mod gives_ownership;
+// mod gives_ownership;
+mod return_ownership_through_tuple_shadowing;
 fn main() {
     //guessing_game::run();
     //guessing_game_practise::run();
@@ -43,5 +44,6 @@ fn main() {
     // ownership_stack_example::run();
     // ownership_in_heap_eample::run();
     // takes_ownership_function::run()
-    gives_ownership::run();
+    // gives_ownership::run();
+    return_ownership_through_tuple_shadowing::run();
 }
