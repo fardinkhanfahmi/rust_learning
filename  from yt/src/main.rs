@@ -23,7 +23,8 @@
 // mod gives_ownership;
 // mod return_ownership_through_tuple_shadowing;
 // mod reference;
-mod mutable_reference;
+// mod mutable_reference;
+mod important_example_of_mutable_reference;
 fn main() {
     //guessing_game::run();
     //guessing_game_practise::run();
@@ -49,5 +50,6 @@ fn main() {
     // gives_ownership::run();
     // return_ownership_through_tuple_shadowing::run();
     // reference::run();
-    mutable_reference::run();
+    // mutable_reference::run();
+    important_example_of_mutable_reference::run();
 }
