@@ -50,6 +50,6 @@ fn main() {
     // gives_ownership::run();
     // return_ownership_through_tuple_shadowing::run();
     // reference::run();
-    // mutable_reference::run();
+    // mutable_reference::run()
     important_example_of_mutable_reference::run();
 }
