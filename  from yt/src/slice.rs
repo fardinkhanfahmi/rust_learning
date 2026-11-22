@@ -14,4 +14,4 @@ fn find_first_word(input : &String) -> usize
         }
     }
     s.len()
-}
+}//root theory of slice learning
