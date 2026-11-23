@@ -1,17 +1,19 @@
+use std::io;
 pub fn run()
 {
     let s=String::from("Hello World");
-    let res=find_first_word(&s);
-    println!("Result is {res}, the string is {s}");
+    let res=find_space(&s);
+    println!("result is {res}");
 }
-fn find_first_word(input : &String) -> usize
+fn find_space(s:&String)->&str
 {
-    let s=input.as_bytes();
-    for(i,&item) in s.iter().enumerate()
-    {
-        if item==b' '{
-            return i;
-        }
-    }
-    s.len()
-}//root theory of slice learning
+   let f=s.as_bytes();
+   for(i,&value) in f.iter().enumerate()
+   {
+     if value==b' '
+     {
+        return &s[..i];
+     }
+   }
+   return &s[..]
+}

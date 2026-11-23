@@ -25,6 +25,7 @@
 // mod reference;
 // mod mutable_reference;
 // mod important_example_of_mutable_reference;
+// mod slice_importance;
 mod slice;
 fn main() {
     //guessing_game::run();
@@ -53,5 +54,6 @@ fn main() {
     // reference::run();
     // mutable_reference::run();
     // important_example_of_mutable_reference::run();
+    // slice_importance::run();
     slice::run();
 }
