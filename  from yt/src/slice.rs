@@ -5,7 +5,7 @@ pub fn run()
     let res=find_space(&s);
     println!("result is {res}");
 }
-fn find_space(s:&String)->&str
+fn find_space(s:&str)->&str
 {
    let f=s.as_bytes();
    for(i,&value) in f.iter().enumerate()
