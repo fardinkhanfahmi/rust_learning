@@ -27,7 +27,7 @@
 // mod important_example_of_mutable_reference;
 // mod slice_importance;
 // mod slice;
-mod struct1;
+mod struct2;
 fn main() {
     //guessing_game::run();
     //guessing_game_practise::run();
@@ -57,5 +57,5 @@ fn main() {
     // important_example_of_mutable_reference::run();
     // slice_importance::run();
     // slice::run();
-    struct1::run();
+    struct2::run();
 }
